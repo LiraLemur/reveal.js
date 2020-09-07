@@ -2,24 +2,109 @@
 <html lang="en">
 	<head>
 		<meta charset="utf-8">
-		<title>reveal.js - Barebones</title>
+		<title>Hyperledger Iroha</title>
 		<link rel="stylesheet" href="../dist/reveal.css">
+		<style>
+   		h2 {
+    		font-size: 200%;
+   			}
+   		p {
+   			line-height: 1.5;
+    		font-size: 200%;
+   			}
+   		ul {
+   			line-height: 1.5;
+   			font-size: 200%;
+   			list-style-type: value;
+   			list-style-position: inside;
+   			list-style-image: url('point.png');
+   		}
+  		</style>
 	</head>
 	<body>
 
 		<div class="reveal">
 			<div class="slides">
-
-				<section>
-					<h2>Barebones Presentation</h2>
-					<p>This example contains the bare minimum includes and markup required to run a reveal.js presentation.</p>
+				<section> <!-- 1st Horizontal – HL Iroha1 -->
+					<section> <!-- 1st Vertical HL Iroha1 -->
+						<h2>Hyperledger Iroha v1</h2>
+						<p>Initiated in 2016, first production release in 2019. Simple blockchain framework for enterprise solutions on C++.</p>
+						<img src="iroha_logo.png">
+					</section>
+					<section data-background-color="#f7c0c2"> <!-- 2nd Vertical HL Iroha1 -->
+						<h2>Key Features</h2>
+						<ul>
+							<li>Written on C++ – fast and reliable, can be run on embedded devices</li>
+							<li>Linearly scalable CFT consensus</li>
+							<li>Various Client Libraries for frontend or mobile development</li>
+							<li>Unified builds</li>
+							<li>Tested pre-written commands and integration with HL Burrow EVM for smart-contracts – it is for you to choose</li>
+							<li>Integrated HL Explorer and HL Ursa</li>
+						</ul>
+					</section>
+					<section> <!-- 3rd Vertical HL Iroha1 -->
+						<h2>Projects Soramitsu built on HL Iroha v1</h2>
+						<p>We realised these projects with HL Iroha already</p>
+						<ul>
+							<li><b>Bakong</b> – CBDC for the National Bank of Cambodia</li>
+							<li><b>Sora</b> – Decentrilised Automonous Economy</li>
+							<li><b>D3 Ledger</b> – Decentralized Digital Depository</li>
+							<li><b>Byacco</b> – local currency for University of Aizu</li>
+							<li>and other projects</li>
+						</ul>
+					</section>
+					<section> <!-- 4th Vertical HL Iroha1 -->
+						<h2>Community projects</h2>
+						<p>Here are examples of projects built by the community</p>
+						<ul>
+							<li><b>ikioo</b> – Global Decentralized Healthcare Community</li>
+							<li><b>BIOCRYPT</b> – RFID and NFC technology to make everyday tasks easier and more convenient.</li>
+							<li><b>diva.exchange</b> – free banking technology for everyone</li>
+							<li>and other projects</li>
+						</ul>
+					</section>
 				</section>
 
-				<section>
-					<h2>No Theme</h2>
-					<p>There's no theme included, so it will fall back on browser defaults.</p>
+				<section> <!-- 2nd Horizontal – HL Iroha2 -->
+					<section> <!-- 1st Vertical – HL Iroha2 -->
+						<h2>Hyperledger Iroha v2</h2>
+						<p>Currently in development. Release planned for Q4 2020</p>
+						<img src="iroha_logo.png">
+					</section>
+					<section data-background-color="#f7c0c2"> <!-- 2nd Vertical – HL Iroha2 -->
+						<h2>Key Features</h2>
+						<p> All the perks of v1 and also</p>
+						<ul>
+							<li>Written in Rust – perfect blockchain language</li>
+							<li>Conditional triggers for different events</li>
+							<li>In-Memory Storage</li>
+							<li>Pluggable BFT consensus algorythm</li>
+							<li>DSL for smart-contracts</li>
+							<li>In the future - custom assets</li>
+						</ul>
+					</section>
+					<section> <!-- 3rd Vertical – HL Iroha2 -->
+						<h2>Use-Cases</h2>
+						<p> Iroha is a Universal enterprise blockchain and can be customised for many use-cases but there are some for which Iroha v2 would be just the perfect fit</p>
+						<ul>
+							<li>Asset management</li>
+							<li>CBDC</li>
+							<li>Identity management</li>
+							<li>Record-keeping</li>
+							<li>Supply chains</li>
+							<li>Decentrilised exchanges</li>
+							<li>Decentrilised Economic Solutions</li>
+						</ul>
+					</section>
 				</section>
 
+				<section> <!-- 3rd Horizontal – contacts -->
+					<section>
+						<h2>Still have questions?</h2>
+						<p>You can always contact us using the link in HL Iroha GitHub</p>
+						<img src="qr.png" width=400px>
+						<p>or contact Sara at garifullina@soramitsu.co.jp</p>
+					</section>
 			</div>
 		</div>
 
